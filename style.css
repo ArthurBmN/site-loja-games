@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.h1-tittle {
+    font-family: "Tiny5", sans-serif;
+}
+
+.section-tittle {
+    font-family: "Cactus Classical Serif", serif;
+}
+
+.navbar {
+    background-color: #008B8B;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #00CED1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-vendas .nav-link .active:hover {
+    color: #fff;
+}
+
+#catalogo button {
+    background-color: #008B8B;
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #00CED1;
+}
+
+.text-colored {
+    color: #008B8B;
+}
+
+.nav-vendas .nav-link.active,
+#fale-conosco button {
+    background-color: #008B8B;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-align: start;
+    
+}
+
+.nav-link.active {
+    background-color: #008B8B;
+    color: #000 !important;
+}
+
+.nav-link:hover {
+    color: #BCF6F3 !important;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
